@@ -7,17 +7,38 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 1fr);
   height: calc(100vh - 136px);
+  width: 100%;
 }
 
 .home-introduction-description {
-  grid-column: 2 / 7;
+  grid-column: 1 / 10;
   grid-row: 2 / 2;
+  padding: 0px 0px 0px 8vw;
+  border-radius: 0px 15px 15px 0px;
 }
+
+.home-introduction p{
+  padding: 0px 5vw 0px 0px;
+}
+
+.home-introduction-svg-path{
+  position: absolute;
+  top: -5vh;
+  left: -20vw;
+  height: 100vh;
+  z-index: -1;
+  width: 100%;
+}
+
 
 .home-introduction-image {
   position: absolute;
-  
-  background-color: #122821;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -2;
+  width: 100%;
 }
 
 .card-header {
@@ -257,6 +278,7 @@
   z-index: 100;
   align-items: center;
   flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .home-navbar-interactive {
