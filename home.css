@@ -18,13 +18,13 @@
 }
 
 .home-introduction p{
-  padding: 0px 5vw 0px 0px;
+  padding: 0px calc(30px + 5vw) 0px 0px;
 }
 
 .home-introduction-svg-path{
   position: absolute;
   top: -5vh;
-  left: -20vw;
+  left: calc(-33vw + 60px);
   height: 100vh;
   z-index: -1;
   width: 100%;
