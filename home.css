@@ -10,6 +10,21 @@
   width: 100%;
 }
 
+.home-introduction-button {
+  grid-column: 6 / span 2;
+  grid-row: 6 / span 1;
+  margin-bottom: 25px;
+  height: 10vh;
+  background-color: rgba(230, 249, 255, 0.75);
+  border-radius: 35px;
+  border-color: #122821;
+  border-width: px;
+  /* center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .home-introduction-description {
   grid-column: 1 / 10;
   grid-row: 2 / 2;
@@ -17,11 +32,11 @@
   border-radius: 0px 15px 15px 0px;
 }
 
-.home-introduction p{
+.home-introduction p {
   padding: 0px calc(30px + 5vw) 0px 0px;
 }
 
-.home-introduction-svg-path{
+.home-introduction-svg-path {
   position: absolute;
   top: -5vh;
   left: calc(-33vw + 60px);
